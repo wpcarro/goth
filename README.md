@@ -23,7 +23,7 @@ It can either retrieve tokens using service account credentials or from Google's
   end
   ```
 
-3. Pass in your credentials json downloaded from your GCE account:
+3. Pass in your credentials json downloaded from your GCE account. For information on retrieving these credentials [visit this page](https://developers.google.com/identity/protocols/application-default-credentials):
   ```elixir
   config :goth,
     json: "path/to/google/json/creds.json" |> File.read!
